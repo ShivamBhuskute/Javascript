@@ -1,0 +1,27 @@
+<!-- The innerHTML property can be used to get or change any HTML element, including <html> and <body>. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <p id="demo"></p> -->
+
+    <p id="intro">Finding HTML Elements by Id</p>
+    <p>This example demonstrates the <b>getElementsById</b> method.</p>
+
+    <p id="h"></p>
+
+    <script>
+        // document.getElementById("demo").innerHTML = "Hello world"
+        const element = document.getElementById("intro");
+
+        document.getElementById("h").innerHTML = "The paragraph is: " + element.innerHTML; 
+    </script>
+</body>
+
+</html>
