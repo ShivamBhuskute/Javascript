@@ -31,3 +31,5 @@ document.querySelector('#start').addEventListener
 
 document.querySelector('#stop').
     addEventListener('click', stopChangingColor);
+
+    
