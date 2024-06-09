@@ -14,3 +14,9 @@ const modArray = array.map(arr);
 console.log(array);
 console.log(modArray);
 console.log(arr);
+
+const mod = array.filter((name) => {
+    return name != 1;
+})
+
+console.log(mod);
