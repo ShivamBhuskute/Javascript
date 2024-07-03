@@ -18,18 +18,18 @@
         // setTimeout(function() {
         //     console.log("Shiv");
         // }, 2000); 
-        const changeText = function () { 
-        document.querySelector('h1').
-        innerHTML = "Best tutorial";
-    }
+        const changeText = function () {
+            document.querySelector('h1').
+                innerHTML = "Best tutorial";
+        }
 
-    const changeMe = setTimeout(changeText, 
-    2000);
+        const changeMe = setTimeout(changeText,
+            2000);
 
-    document.querySelector('#stop').addEventListener('click', function(){
-        clearTimeout(changeMe)
-        console.log("Stopped");
-    })
+        document.querySelector('#stop').addEventListener('click', function () {
+            clearTimeout(changeMe)
+            console.log("Stopped");
+        })
     </script>
 </body>
 
