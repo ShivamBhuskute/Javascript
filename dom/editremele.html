@@ -13,8 +13,11 @@
     </ul>
     <script>
         function addLanguage(langName) {
+            // Creating a element
             const li = document.createElement('li');
+            // Appending text
             li.innerHTML = `${langName}`;
+            // Appending it to parent tag(to body in case if no parent tag)
             document.querySelector('.language').appendChild(li);
         }
         addLanguage("Python");
