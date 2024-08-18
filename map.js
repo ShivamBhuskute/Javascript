@@ -11,6 +11,9 @@ const modArray = array.map(arr);
 //     return element * element;
 // })
 
+// map function performs operation on every element
+// of the array
+
 console.log(array);
 console.log(modArray);
 console.log(arr);
