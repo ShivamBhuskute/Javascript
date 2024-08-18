@@ -88,4 +88,4 @@ let grid = generateEmptyGrid(gridSize);
 grid = placeWordsInGrid(grid, words);
 grid = fillGridWithRandomLetters(grid);
 
-console.log(grid);
+console.log(grid); 
