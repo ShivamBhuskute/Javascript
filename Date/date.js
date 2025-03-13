@@ -1,4 +1,4 @@
-const d = new Date()//const d = new Date("2021-03-25");
+const d = new Date(); //const d = new Date("2021-03-25");
 
 console.log(d.getFullYear());
 
@@ -8,7 +8,20 @@ console.log(d.getMonth());
 console.log(d.getDay());
 
 //to rreturn month name instead of just the number
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+];
 console.log(months[d.getMonth()]);
 
 // getFullYear()	    Get year as a four digit number (yyyy)
@@ -21,4 +34,4 @@ console.log(months[d.getMonth()]);
 // getMilliseconds()	Get millisecond (0-999)
 // getTime()	        Get time (milliseconds since January 1, 1970)
 
-// use set methods to do the same 
+// use set methods to do the same
