@@ -8,3 +8,8 @@ let text2 = "abbcccdddd"
 let regex2 = /ab+c{3}d{4}/
 console.log(regex2.test(text2));
 
+
+let text3 = "123-456-7890";
+let regex3 = /\d{3}-\d{3}-\d{4}/;
+
+console.log(regex3.test(text3));
